@@ -64,22 +64,36 @@ console.log(2*(lenght+weidht))
     //     console.log("invaild Traffic")
     // }
 
-    let num1 = 7;
+    let day = "Friday";
     
-    if (num1 % 3 == 0 && num1 % 5 == 0){
-        console.log("Fizzbuzz");
-    }else if(num1 % 3 == 0){
-        console.log("Fizz")
-    }else if(num1 % 5 == 0){
-        console.log("Buzz")
-    }else{
-        console.log("Invaild input")
-    }
+    switch (day){
+    case "Monday":
+        console.log("there are 6 day(s) untill the weekend")
+        break;
+        case " Tuesday":
+        console.log("there are 5 day(s) untill the weekend")
+        break;
+        case "Wednseday":
+            console.log("there are 4 day(s) untill the weekend")
+            break;
+        case "Thursday":
+            console.log("there are 3 day(S) until the weekend")
+            break;
+        case "Friday":
+            console.log("there are 2 day(s) untill the weekend") 
+            break;
+        case "sturday":
+            console.log("there are 1 day(S) untill the weekend")
+            break;
+        case ("Sunday"):
+            console.log("Sunday is Funnday") 
+            break;
+            default:
+                console.log("invaild input")                  
+   } 
     
-
-    
-    
- 
+            let num = 2
+            num > 0 ? console.log("it is gretest") : num>0
         
 
     </script>
